@@ -1,0 +1,64 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = chat_options_screen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1718918543981
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:ccee708f-81a8-420b-a187-361b48b6ece2-1718918368879] = [groups:][instances:]
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = a715ade1-e667-4f0d-b1c3-9fcab7abc6d2-1718916814047
+  [executable_block:a715ade1-e667-4f0d-b1c3-9fcab7abc6d2-1718916814047][type:generic] = [executables:]
+  backgroundnormal = [source:local]/config/fancymenu/assets/buttons/button/button.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/buttons/button/buttonhover.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/buttons/button/buttondisabled.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = true
+  nine_slice_border_x = 7
+  nine_slice_border_y = 5
+  hoversound = [source:local]/config/fancymenu/assets/audio/menubuttonblip.wav
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = 400973
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 314
+  y = 446
+  width = 200
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 26cc6b43-2e21-4ffb-bbb3-1520a59ec02c-1718916814047
+  [loading_requirement_container_meta:26cc6b43-2e21-4ffb-bbb3-1520a59ec02c-1718916814047] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+

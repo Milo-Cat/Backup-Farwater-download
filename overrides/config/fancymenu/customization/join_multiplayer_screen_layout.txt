@@ -1,0 +1,346 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = join_multiplayer_screen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1718918172419
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:9fde3ca8-38f3-4cad-96d6-90dde522a3c2-1718918132056] = [groups:][instances:]
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 75280dd5-356f-4766-94f6-af9cf190a278-1718910537557
+  [executable_block:75280dd5-356f-4766-94f6-af9cf190a278-1718910537557][type:generic] = [executables:]
+  backgroundnormal = [source:local]/config/fancymenu/assets/buttons/button/button.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/buttons/button/buttonhover.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/buttons/button/buttondisabled.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = true
+  nine_slice_border_x = 7
+  nine_slice_border_y = 5
+  hoversound = [source:local]/config/fancymenu/assets/audio/menubuttonblip.wav
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = 502970
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 416
+  y = 443
+  width = 74
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 209d0adf-321f-42da-b15d-dbd141dde5b6-1718910537557
+  [loading_requirement_container_meta:209d0adf-321f-42da-b15d-dbd141dde5b6-1718910537557] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 64685af3-d5fd-4a7f-add1-77e3b8b48e8f-1718910537557
+  [executable_block:64685af3-d5fd-4a7f-add1-77e3b8b48e8f-1718910537557][type:generic] = [executables:]
+  backgroundnormal = [source:local]/config/fancymenu/assets/buttons/button/button.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/buttons/button/buttonhover.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/buttons/button/buttondisabled.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = true
+  nine_slice_border_x = 7
+  nine_slice_border_y = 5
+  hoversound = [source:local]/config/fancymenu/assets/audio/menubuttonblip.wav
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = 424970
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 338
+  y = 443
+  width = 74
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 07fcc891-0ef1-4466-add0-c6c2cbc382f7-1718910537557
+  [loading_requirement_container_meta:07fcc891-0ef1-4466-add0-c6c2cbc382f7-1718910537557] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 072304fc-2c3b-45dd-9254-b61acd44de64-1718910537557
+  [executable_block:072304fc-2c3b-45dd-9254-b61acd44de64-1718910537557][type:generic] = [executables:]
+  backgroundnormal = [source:local]/config/fancymenu/assets/buttons/button/button.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/buttons/button/buttonhover.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/buttons/button/buttondisabled.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = true
+  nine_slice_border_x = 7
+  nine_slice_border_y = 5
+  hoversound = [source:local]/config/fancymenu/assets/audio/menubuttonblip.wav
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = 346946
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 260
+  y = 419
+  width = 100
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 9e94c9a0-d945-4e96-af2a-e9275abf98f5-1718910537557
+  [loading_requirement_container_meta:9e94c9a0-d945-4e96-af2a-e9275abf98f5-1718910537557] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = c8813e26-a83e-420a-88ff-c8de671a535e-1718910537557
+  [executable_block:c8813e26-a83e-420a-88ff-c8de671a535e-1718910537557][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  hoversound = [source:local]/config/fancymenu/assets/audio/menubuttonblip.wav
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = 658946
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 572
+  y = 419
+  width = 20
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = cdb91d8d-6e13-4ffc-b43f-b8b6edce166b-1718910537557
+  [loading_requirement_container_meta:cdb91d8d-6e13-4ffc-b43f-b8b6edce166b-1718910537557] = [groups:][instances:]
+  is_hidden = true
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 4f2001eb-9d92-4d2f-8d23-14ec0de7bc63-1718910537557
+  [executable_block:4f2001eb-9d92-4d2f-8d23-14ec0de7bc63-1718910537557][type:generic] = [executables:]
+  backgroundnormal = [source:local]/config/fancymenu/assets/buttons/button/button.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/buttons/button/buttonhover.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/buttons/button/buttondisabled.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = true
+  nine_slice_border_x = 7
+  nine_slice_border_y = 5
+  hoversound = [source:local]/config/fancymenu/assets/audio/menubuttonblip.wav
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = 450946
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 364
+  y = 419
+  width = 100
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 3750c548-40de-48ab-8c8c-2f491c55cdea-1718910537557
+  [loading_requirement_container_meta:3750c548-40de-48ab-8c8c-2f491c55cdea-1718910537557] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 952b6c30-2644-42c1-966c-15c2e4260f33-1718910537557
+  [executable_block:952b6c30-2644-42c1-966c-15c2e4260f33-1718910537557][type:generic] = [executables:]
+  backgroundnormal = [source:local]/config/fancymenu/assets/buttons/button/button.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/buttons/button/buttonhover.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/buttons/button/buttondisabled.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = true
+  nine_slice_border_x = 7
+  nine_slice_border_y = 5
+  hoversound = [source:local]/config/fancymenu/assets/audio/menubuttonblip.wav
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = 580970
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 494
+  y = 443
+  width = 74
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = b6362bb5-45c7-4ec2-bbc3-9a06dbd04d33-1718910537557
+  [loading_requirement_container_meta:b6362bb5-45c7-4ec2-bbc3-9a06dbd04d33-1718910537557] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 07f2617d-3ee4-4db2-a3b8-6705aba06050-1718910537557
+  [executable_block:07f2617d-3ee4-4db2-a3b8-6705aba06050-1718910537557][type:generic] = [executables:]
+  backgroundnormal = [source:local]/config/fancymenu/assets/buttons/button/button.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/buttons/button/buttonhover.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/buttons/button/buttondisabled.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = true
+  nine_slice_border_x = 7
+  nine_slice_border_y = 5
+  hoversound = [source:local]/config/fancymenu/assets/audio/menubuttonblip.wav
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = 346970
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 260
+  y = 443
+  width = 74
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 1120f090-416d-4377-859a-2dff514e0c0e-1718910537557
+  [loading_requirement_container_meta:1120f090-416d-4377-859a-2dff514e0c0e-1718910537557] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 873db960-de42-4ecc-86e1-b2b52cb7696d-1718910537557
+  [executable_block:873db960-de42-4ecc-86e1-b2b52cb7696d-1718910537557][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  hoversound = [source:local]/config/fancymenu/assets/audio/menubuttonblip.wav
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = 658970
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 572
+  y = 443
+  width = 20
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 37507044-2703-4b13-b3b9-1a9302148ab2-1718910537557
+  [loading_requirement_container_meta:37507044-2703-4b13-b3b9-1a9302148ab2-1718910537557] = [groups:][instances:]
+  is_hidden = true
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = cc4a6022-6028-468f-baa4-2e9beaa9961f-1718910537557
+  [executable_block:cc4a6022-6028-468f-baa4-2e9beaa9961f-1718910537557][type:generic] = [executables:]
+  backgroundnormal = [source:local]/config/fancymenu/assets/buttons/button/button.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/buttons/button/buttonhover.png
+  background_texture_inactive = [source:local]/config/fancymenu/assets/buttons/button/buttondisabled.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = true
+  nine_slice_border_x = 7
+  nine_slice_border_y = 5
+  hoversound = [source:local]/config/fancymenu/assets/audio/menubuttonblip.wav
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = 554946
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 468
+  y = 419
+  width = 100
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 422c6175-868c-467e-8d74-1be4aa65a752-1718910537557
+  [loading_requirement_container_meta:422c6175-868c-467e-8d74-1be4aa65a752-1718910537557] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+

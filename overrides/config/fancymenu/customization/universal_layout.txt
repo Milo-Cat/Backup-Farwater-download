@@ -1,0 +1,83 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = %fancymenu:universal_layout%
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1723205824622
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  universal_layout_blacklist = pack_selection_screen;
+  [loading_requirement_container_meta:a7a02ea8-6a11-4444-bfb4-fee8aaf9e91a-1723205779032] = [groups:][instances:]
+}
+
+menu_background {
+  image_path = [source:local]/config/fancymenu/assets/textures/bg/darkeramethyst.png
+  slide = false
+  repeat_texture = true
+  background_type = image
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = false
+  scroll_list_header_texture = [source:local]/config/fancymenu/assets/textures/bg/lighteramethyst.png
+  scroll_list_footer_texture = [source:local]/config/fancymenu/assets/textures/bg/lighteramethyst.png
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = true
+  repeat_scroll_list_header_texture = true
+  repeat_scroll_list_footer_texture = true
+}
+
+element {
+  audio_instance_0 = [source:local]/config/fancymenu/assets/audio/menuthemetest.wav
+  play_mode = normal
+  looping = true
+  volume = 1.0
+  sound_source = music
+  element_type = audio_v2
+  instance_identifier = 1713fa21-e964-4bce-92d6-443cf0a994f0-1718879472148
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -373
+  y = -168
+  width = 100
+  height = 100
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = fab7c7cd-955e-4fc5-8423-cb2dd16f74a8-1718879472148
+  [loading_requirement_container_meta:fab7c7cd-955e-4fc5-8423-cb2dd16f74a8-1718879472148] = [groups:][instances:]
+}
+
+element {
+  play_menu_music = true
+  play_world_music = true
+  element_type = music_controller
+  instance_identifier = f49e1ca9-b484-4180-9100-da61adf05d27-1718879474004
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -373
+  y = -63
+  width = 100
+  height = 100
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 2ba8270d-a026-49b5-9cc2-f04f9e3e1fa3-1718879474004
+  [loading_requirement_container_meta:2ba8270d-a026-49b5-9cc2-f04f9e3e1fa3-1718879474004] = [groups:][instances:]
+}
+

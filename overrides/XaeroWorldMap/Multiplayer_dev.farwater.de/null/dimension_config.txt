@@ -1,0 +1,5 @@
+MWName:mw$1574884454:Map 2
+MWName:mw$-624791323:Map 1
+MWName:mw$default:Default
+caveModeType:1
+dimensionTypeId:minecraft:overworld
